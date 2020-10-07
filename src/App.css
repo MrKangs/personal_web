@@ -1,9 +1,21 @@
+/* Header Color background */
 .header-color {
   background: #085078;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Oswald', sans-serif;
+
 }
+
+/*Nav Bar text */
+.header-color a, .header-color Link{
+  font-family: 'Oswald', sans-serif;
+  font-size:40px;
+  color:#fff;
+  text-decoration: none;
+
+}
+
+/* Body background */
 .landing-grid{
   background: #085078;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
@@ -16,15 +28,28 @@
   height: 100%;
 }
 
-
-.profile-img{
-  height: 250px;
+/* Profile Image for Landing*/
+.profile-landing-img{
+  height: 400px;
   padding: 20px;
   border-radius: 50%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
 
+/* No highlighting the text */
+#noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Banner Box setting */
 .banner-text{
   background-color: black;
   opacity: .8;
@@ -33,15 +58,19 @@
   border-radius: 25px;
 }
 
+.banner-text:hover{
+  cursor: default;
+}
+
 .banner-text h1{
-  font-size: 66px;
+  font-size: 75px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: white;
 }
 
 .banner-text h2{
-  font-size: 33px;
+  font-size: 40px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: white;
@@ -57,7 +86,7 @@
 .banner-text p{
   color: white;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1em;
 }
 

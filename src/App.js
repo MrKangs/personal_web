@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
     <Layout>
-        <Header className="header-color"  scroll>
+        <Header className="header-color" id = "noselect"  scroll>
             <Navigation>
-                <Link to = "/">Home</Link>
-                <Link to="/aboutme">About Me</Link>
-                <a href ="https://google.com" target="_blank" rel = "noopener noreferrer">Resume</a>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <h3><Link to = "/">Home</Link></h3>
+                <h3><Link to="/aboutme">About Me</Link></h3>
+                <h3><a href ="https://google.com" target="_blank" rel = "noopener noreferrer">Resume</a></h3>
+                <h3><Link to="/projects">Projects</Link></h3>
+                <h3><Link to="/contact">Contact</Link></h3>
             </Navigation>
         </Header>
         <Content>

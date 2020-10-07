@@ -6,12 +6,12 @@ class Landing extends Component{
     render(){
         return(
             <div style={{width: "100%", margin: 'auto' }}>
-                <Grid className="landing-grid">
+                <Grid className="landing-grid" id = "noselect">
                     <Cell col={12}>
                         <img 
                         src ="https://avatars3.githubusercontent.com/u/24395305?s=460&u=6f91ce51ceaa6973ab86dd77f9eb48a4701704e3&v=4" 
                         alt = "Profile"
-                        className = "profile-img"
+                        className = "profile-landing-img"
                         />
 
                         <div className = "banner-text">
