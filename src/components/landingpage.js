@@ -16,16 +16,18 @@ class Landing extends Component{
 
                         <div className = "banner-text">
                             <h1>Kenneth Kang</h1>
-                            <h2>OPEnS Lab Loom Project Lead & Research Assistant</h2>
                             
+                            <h2>OPEnS Lab Loom Project Lead & Research Assistant</h2>
+
                             <hr/>
                         
-                        <p>Something about me</p>
+                        <p> Python | C++ | MicroController/Arduino | Java | MASM | JavaScript | React </p>
 
                         <div className = "social-links">
 
                             {/* Gmail */}
                             <a href= "mailto:gykang00@gmail.com" target="_blank" rel = "noopener noreferrer">
+                                {/* Need to know how to open email link how others work */}
                                 <i class="fa fa-envelope" aria-hidden = "true" aria-label ="Send me an Email!"/>
                             </a>
                             
@@ -42,9 +44,6 @@ class Landing extends Component{
                         </div>
 
                         </div>
-
-
-
                     </Cell>
                 </Grid>
             </div>

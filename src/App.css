@@ -30,7 +30,7 @@
   opacity: .8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .banner-text h1{
@@ -63,7 +63,7 @@
 
 .social-links{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   margin: auto;
 }

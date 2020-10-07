@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title = "Mr.Kangs" scroll>
+        <Header className="header-color"  scroll>
             <Navigation>
                 <Link to = "/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
+                <a href ="https://google.com">Resume</a>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
