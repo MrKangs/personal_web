@@ -1,25 +1,24 @@
 /* Header Color background */
 .header-color {
-  background: #085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 /*Nav Bar text */
 .header-color a, .header-color Link{
   font-family: 'Oswald', sans-serif;
-  font-size:40px;
+  font-size:30px;
   color:#fff;
   text-decoration: none;
-
 }
 
 /* Body background */
 .landing-grid{
-  background: #085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -53,7 +52,7 @@
 .banner-text{
   background-color: black;
   opacity: .8;
-  width: 75%;
+  width: 50%;
   margin: auto;
   border-radius: 25px;
 }
@@ -102,3 +101,12 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.projects-grid{
+  display:flex;
+
+
+}
+
+
+

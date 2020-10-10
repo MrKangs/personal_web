@@ -15,13 +15,13 @@ class Landing extends Component{
                         />
 
                         <div className = "banner-text">
-                            <h1>Kenneth Kang</h1>
+                            <h1>Kenneth Lee Kang</h1>
                             
                             <h2>OPEnS Lab Loom Project Lead & Research Assistant</h2>
 
                             <hr/>
                         
-                        <p> Python | C++ | MicroController/Arduino | Java | MASM | JavaScript | React </p>
+                        <p> Python | C++ | MicroController/Arduino | Java | MASM | JavaScript </p>
 
                         <div className = "social-links">
 
@@ -47,6 +47,10 @@ class Landing extends Component{
                     </Cell>
                 </Grid>
             </div>
+
+            
+
+
 
         )
     }
