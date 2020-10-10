@@ -14,7 +14,6 @@ function App() {
                 <Link to="/aboutme">About Me</Link>
                 <a href ="https://google.com" target="_blank" rel = "noopener noreferrer">Resume</a>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Content>
