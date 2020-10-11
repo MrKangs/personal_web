@@ -72,8 +72,7 @@ class Projects extends Component{
                 </Card>
                 {/* FRC2019: DeepSpace */}
                 <Card shadow = {5}>
-                    <CardTitle style={{color: 'red', height:'200px', background:
-                     'url(https://lh3.googleusercontent.com/proxy/G6D3KOZOz7BpTufd6cz-R9Pcj0LCipe1TDlGsWO1uEI6BfdibUY4lcCH9ik5EklnQX0LBoLJRQyGyydg6kt_geOtENzOjbyCc4OISanXd4OyxZByT5RW6MPzwEYBO4dtmfvb0hj9poRNvNs3CyEOWSFZ3XIqjaq-QA) center / cover'}}></CardTitle>
+                    <CardTitle style={{color: 'black', height:'200px'}}>Deep Space</CardTitle>
                     <CardText>First Robotic Competition 2019 Deep Space Team 997 Spartan. I was the one for writing the code for automatic hatch displacement.</CardText>
                     <CardActions>
                         <Button colored href = {"https://github.com/Team997Coders/2019DeepSpace"} target= "_blank" rel = "noopener noreferrer"> Code </Button>
