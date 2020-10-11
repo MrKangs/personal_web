@@ -102,10 +102,24 @@
   padding: 8px;
 }
 
+/* Container of Cards in Projects */
 .projects-grid{
   display:flex;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+}
 
+/* Card for Projects */
+.mdl-card{
+  margin: 15px;
+  width: 330px;
+  max-height: 320px;
+  font-family: 'Oswald', sans-serif;
 
+}
+
+.contect{
+  flex-wrap: wrap;
 }
 
 .contact-body {
@@ -128,11 +142,11 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
 

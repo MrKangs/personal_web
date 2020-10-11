@@ -12,8 +12,8 @@ function App() {
             <Navigation>
                 <Link to = "/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
-                <a href ="https://google.com" target="_blank" rel = "noopener noreferrer">Resume</a>
-                <Link to="/projects">Projects</Link>
+                <a href ="https://drive.google.com/file/d/1PaRs4T1l_ntstGP0VMGLSk5837I3kGN4/view?usp=sharing" target="_blank" rel = "noopener noreferrer">Resume</a>
+                <Link to="/projects">Projects/Courses</Link>
             </Navigation>
         </Header>
         <Content>

@@ -21,7 +21,7 @@ class Landing extends Component{
 
                             <hr/>
                         
-                        <p> Python | C++ | MicroController/Arduino | Java | MASM | JavaScript </p>
+                        <p> Python | C++ | MicroController/Arduino | Java | JavaScript </p>
 
                         <div className = "social-links">
 
