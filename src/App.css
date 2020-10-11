@@ -118,6 +118,12 @@
 
 }
 
+.contact-img{
+  width: 300px;
+  height: auto;
+
+}
+
 .contect{
   flex-wrap: wrap;
 }
@@ -147,7 +153,6 @@
 
 .contact-grid p {
   font-family: 'Oswald', sans-serif;
-  font-weight: bold;
 }
 
 .contact-grid hr {
