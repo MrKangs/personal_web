@@ -4,7 +4,7 @@ import {Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
-{/* Before you make publish, make sure you change like this: https://www.thetopsites.net/article/59531658.shtml*/}
+/* Before you make publish, make sure you change like this: https://www.thetopsites.net/article/59531658.shtml*/
 
 function App() {
   return (
