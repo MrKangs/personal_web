@@ -39,8 +39,8 @@ class Projects extends Component{
                      'url(https://github.com/MrKangs/personal_web/blob/development/public/HomePage.PNG?raw=true) center / cover'}}>Personal Website</CardTitle>
                     <CardText>This project is the code that is written for this website that you are in.</CardText>
                     <CardActions>
-                        <Button colored href = {"https://github.com/MrKangs/personal_web"} target= "_blank" rel = "noopener noreferrer"> Code </Button>
-                        <Button colored href = {"https://github.com/MrKangs/personal_web/wiki"} target= "_blank" rel = "noopener noreferrer"> WiKi </Button>
+                        <Button colored href = {"https://github.com/MrKangs/personal_website"} target= "_blank" rel = "noopener noreferrer"> Code </Button>
+                        <Button colored href = {"https://github.com/MrKangs/MrKangs.github.io/wiki"} target= "_blank" rel = "noopener noreferrer"> WiKi </Button>
                     </CardActions>
                 </Card>
                 {/* URSA */}
