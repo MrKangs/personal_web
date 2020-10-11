@@ -1,38 +1,166 @@
-.App {
+/* Header Color background */
+.header-color {
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/*Nav Bar text */
+.header-color a, .header-color Link{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  color:#fff;
+  text-decoration: none;
+}
+
+/* Body background */
+.landing-grid{
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Profile Image for Landing*/
+.profile-landing-img{
+  height: 400px;
+  padding: 20px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* No highlighting the text */
+#noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Banner Box setting */
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.banner-text:hover{
+  cursor: default;
+}
+
+.banner-text h1{
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text h2{
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text hr{
+  border-top: 5px dotted white;
+  font-family: 'Oswald', sans-serif;
+  width: 50%;
+  margin: auto;
 }
+
+.banner-text p{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color:white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* Container of Cards in Projects */
+.projects-grid{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+}
+
+/* Card for Projects */
+.mdl-card{
+  margin: 15px;
+  width: 330px;
+  max-height: 320px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.contect{
+  flex-wrap: wrap;
+}
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+
+
