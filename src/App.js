@@ -11,7 +11,7 @@ function App() {
     <Layout>
         <Header className="header-color" id = "noselect"  scroll>
             <Navigation>
-                <Link to = "/personal_website">Home</Link>
+                <Link to = "/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
                 <a href ="https://drive.google.com/file/d/1PaRs4T1l_ntstGP0VMGLSk5837I3kGN4/view?usp=sharing" target="_blank" rel = "noopener noreferrer">Resume</a>
                 <Link to="/projects">Projects/Courses</Link>
