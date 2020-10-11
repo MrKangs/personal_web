@@ -36,7 +36,7 @@ class Projects extends Component{
                 {/* Website */}
                 <Card shadow = {5}>
                     <CardTitle style={{color: '#fff', height:'200px', background:
-                     'url(https://github.com/MrKangs/personal_web/blob/development/public/HomePage.PNG?raw=true) center / cover'}}>Personal Website</CardTitle>
+                     'url(https://github.com/MrKangs/personal_website/blob/development/public/HomePage.PNG?raw=true) center / cover'}}>Personal Website</CardTitle>
                     <CardText>This project is the code that is written for this website that you are in.</CardText>
                     <CardActions>
                         <Button colored href = {"https://github.com/MrKangs/personal_website"} target= "_blank" rel = "noopener noreferrer"> Code </Button>

@@ -9,13 +9,13 @@ class About extends Component{
               <Cell col={6}>
                 <h2>Kenneth Lee Kang</h2>
                 <img
-                  src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                  src="https://github.com/MrKangs/personal_website/blob/gh-pages/Pictures/Ken4.JPG"
                   alt="pic of myself"
                   style={{height: '250px'}}
                    />
                  <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                  
-                   
+
+
                   
                 </p>
     
