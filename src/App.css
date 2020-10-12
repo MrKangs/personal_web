@@ -131,6 +131,7 @@
 
 .contect{
   flex-wrap: wrap;
+  
 }
 
 .contact-body {
@@ -141,6 +142,7 @@
   justify-content: center;
   padding-top: 2em;
   overflow: scroll;
+  
 }
 
 .contact-grid {
@@ -151,6 +153,7 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  
   
 }
 
@@ -165,13 +168,20 @@
 
 .contact-grid hr {
   border-top: 5px dotted black;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
+
 
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+  color: black;
+}
+
+.contact-list a { 
+  color: black;
+  text-decoration: none;
 }
 
 

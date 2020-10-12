@@ -51,17 +51,19 @@ class About extends Component{
     
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px'}}>
-                        <i className="fa fa-envelope" aria-hidden="true"/>
-                        gykang00@gmail.com
+                        <a href = "mailto:gykang00@gmail.com" target = "_blank" rel = "noopener noreferrer">
+                          <i className="fa fa-envelope" aria-hidden="true"/>
+                          gykang00@gmail.com
+                        </a>
                       </ListItemContent>
                     </ListItem>
 
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px'}}>
-                        <i className="fa fa-envelope" aria-hidden="true"/>
-                        kangken@oregonstate.edu
+                        <a href = "https://www.linkedin.com/in/kennethleekang/" target = "_blank" rel = "noopener noreferrer">
+                          <i className = "fa fa-linkedin" aria-hidden= "true"/>LinkedIn</a>
                       </ListItemContent>
-                    </ListItem>     
+                    </ListItem>   
     
                   </List>
                 </div>
