@@ -30,7 +30,7 @@ class About extends Component{
                 I would love to learn more new programming langauges, computational concepts, and other interesting aspect of Computer Science.  
                 </p>
 
-                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' , paddingBottom: '7em'}}>
                 Please Reach me out over Email or Phone. Also Feel free to connect over LinkedIn! 
                 </p>
 

@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-    <Layout>
-        <Header className="header-color" id = "noselect"  scroll>
+    <div className = "demo-big-content">
+    <Layout fixedHeader>
+        <Header className="header-color" id = "noselect" scroll>
             <Navigation>
                 <Link to = "/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
