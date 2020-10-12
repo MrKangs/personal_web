@@ -30,7 +30,7 @@ class About extends Component{
                 I would love to learn more new programming langauges, computational concepts, and other interesting aspect of Computer Science.  
                 </p>
 
-                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' , paddingBottom: '7em'}}>
                 Please Reach me out over Email or Phone. Also Feel free to connect over LinkedIn! 
                 </p>
 
@@ -51,17 +51,19 @@ class About extends Component{
     
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px'}}>
-                        <i className="fa fa-envelope" aria-hidden="true"/>
-                        gykang00@gmail.com
+                        <a href = "mailto:gykang00@gmail.com" target = "_blank" rel = "noopener noreferrer">
+                          <i className="fa fa-envelope" aria-hidden="true"/>
+                          gykang00@gmail.com
+                        </a>
                       </ListItemContent>
                     </ListItem>
 
                     <ListItem>
                       <ListItemContent style={{fontSize: '30px'}}>
-                        <i className="fa fa-envelope" aria-hidden="true"/>
-                        kangken@oregonstate.edu
+                        <a href = "https://www.linkedin.com/in/kennethleekang/" target = "_blank" rel = "noopener noreferrer">
+                          <i className = "fa fa-linkedin" aria-hidden= "true"/>LinkedIn</a>
                       </ListItemContent>
-                    </ListItem>     
+                    </ListItem>   
     
                   </List>
                 </div>

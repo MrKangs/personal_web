@@ -1,3 +1,7 @@
+.html{
+  overflow: scroll;
+}
+
 /* Header Color background */
 .header-color {
   background: #43C6AC;  /* fallback for old browsers */
@@ -25,6 +29,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: scroll;
 }
 
 /* Profile Image for Landing*/
@@ -126,6 +131,7 @@
 
 .contect{
   flex-wrap: wrap;
+  
 }
 
 .contact-body {
@@ -135,6 +141,8 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+  overflow: scroll;
+  
 }
 
 .contact-grid {
@@ -145,10 +153,13 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  
+  
 }
 
 .contact-grid h2 {
   font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
 }
 
 .contact-grid p {
@@ -157,13 +168,20 @@
 
 .contact-grid hr {
   border-top: 5px dotted black;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
+
 
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+  color: black;
+}
+
+.contact-list a { 
+  color: black;
+  text-decoration: none;
 }
 
 
