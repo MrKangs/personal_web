@@ -31,7 +31,7 @@ class About extends Component{
                 </p>
 
                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' , paddingBottom: '7em'}}>
-                Please Reach me out over Email or Phone. Also Feel free to connect over LinkedIn! 
+                Please reach me out over email or phone. Also feel free to connect over LinkedIn! 
                 </p>
 
               
