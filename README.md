@@ -4,6 +4,8 @@ The based was bootstrapped with [create-react-app](https://facebook.github.io/cr
 
 If you want to copy and use it for your own personal website, you need to install node.js and type ```npm install``` and ```npm start``` to start the server on your localhost. 
 
+In this repository, there is a GitHub Action that will vertify if there any issues for building the website using React. 
+
 In the home page, there will be my profile picture, my full name, my current position title, my hard skills, and my contact methods.
 For now, this is a simple look as home page. However, as I spend more time in developing the website, I will add more interesting features such as some animation affects.
 
