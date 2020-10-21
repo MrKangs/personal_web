@@ -31,7 +31,7 @@ class Projects extends Component{
                     <CardActions>
                         <Button colored href = {"https://github.com/OPEnSLab-OSU/eGreenHouse"} target= "_blank" rel = "noopener noreferrer"> Code </Button>
                         <Button colored href = {"https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/eGreenhouse"} target= "_blank" rel = "noopener noreferrer"> WiKi </Button>
-                        <Button colored href = {"https://drive.google.com/file/d/152EdPs3ZE0yBkeeGiCtN2YkqsnWM4113/view?usp=sharing"} target= "_blank" rel = "noopener noreferrer"> Paper </Button>
+                        <Button colored href = {"https://drive.google.com/file/d/1lQferInFly5ifrsXMIicjF6gMfPQYCz0/view?usp=sharing"} target= "_blank" rel = "noopener noreferrer"> Paper </Button>
                     </CardActions>
                 </Card>
                 {/* Website */}
