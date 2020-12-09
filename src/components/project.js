@@ -21,6 +21,7 @@ class Projects extends Component{
                     <CardActions>
                         <Button colored href = {"https://github.com/OPEnSLab-OSU/Loom"} target= "_blank" rel = "noopener noreferrer"> Code </Button>
                         <Button colored href = {"https://github.com/OPEnSLab-OSU/Loom/wiki"} target= "_blank" rel = "noopener noreferrer"> WiKi </Button>
+                        <Button colored href = {"https://drive.google.com/file/d/1k876WlJRBGWl0NKDAPLnkQTse1KQemAA/view?usp=sharing"} target= "_blank" rel = "noopener noreferrer">Poster </Button>
                     </CardActions>
                 </Card>
                 {/* eGreenhouse */}
