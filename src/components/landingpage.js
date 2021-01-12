@@ -17,7 +17,7 @@ class Landing extends Component{
                         <div className = "banner-text">
                             <h1>Kenneth Lee Kang</h1>
                             
-                            <h2>OPEnS Lab Loom Project Lead & Research Assistant</h2>
+                            <h2>Research Assistant</h2>
 
                             <hr/>
                         

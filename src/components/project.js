@@ -5,12 +5,22 @@ import { Tab, Tabs, Grid, Cell, CardTitle, CardActions, Button, Card, CardText }
 class Projects extends Component{
     constructor(props){
         super(props);
-        this.state = {activeTab: 0};
+        this.state = {activeTab: 1};
     }
 
     toggleCatergories(){
-        /* 2020 */
+        /* 2021 */
         if(this.state.activeTab === 0){
+            return(
+                <div className = "projects-grid" id = "noselect">
+                {/* Loom */}
+                
+                </div>
+                
+            );
+        }
+        /* 2020 */
+        else if(this.state.activeTab === 1){
             return(
                 <div className = "projects-grid" id = "noselect">
                 {/* Loom */}
@@ -60,7 +70,7 @@ class Projects extends Component{
                 
             );
             /* 2019 */
-        } else if(this.state.activeTab === 1){
+        } else if(this.state.activeTab === 2){
             return(
                 <div className = "projects-grid" id = "noselect">
                 {/* Score Python */}
@@ -84,7 +94,7 @@ class Projects extends Component{
                 </div>
             )
             /* Course Work */
-        } else if(this.state.activeTab === 2){
+        } else if(this.state.activeTab === 3){
             return(
                 <div className = "projects-grid" id = "noselect">
                 {/* Web CS 290 */}
@@ -168,6 +178,7 @@ class Projects extends Component{
         return(
             <div className = "catergory-tabs" id = "noselect">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
+                    <Tab>2021</Tab>
                     <Tab>2020</Tab>
                     <Tab>2019</Tab>
                     <Tab>Course Work</Tab>

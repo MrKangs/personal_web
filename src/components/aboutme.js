@@ -20,9 +20,8 @@ class About extends Component{
                 </p>
 
                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                Currently, I am a project lead of Loom, a custom Arudino Library that was created in the OSU OPEnS Lab. You can find it in my Projects Tab.
-                At the same time, I am doing research with Professor Cindy Grimm and Professor Bill Smart for Computer AI Vision that you can also find in my Projects Tab. 
-                Last, I am part of Student Fee Commitee At Large Member for budgeting Student incidential fees for Fiscal Year 2021-2022.  
+                Currently, I am doing research with Professor Cindy Grimm and Professor Bill Smart for Computer AI Vision that you can find in my Projects Tab. 
+                Also, I am part of Student Fee Commitee At Large Member for budgeting Student incidential fees for Fiscal Year 2021-2022.  
                 </p>
 
                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
